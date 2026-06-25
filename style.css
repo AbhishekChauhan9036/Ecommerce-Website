@@ -197,3 +197,236 @@ body{
     color: #088178;
     background-color: #fddde4;
 }
+
+
+/* Feature Section Styles*/
+.product-section  .pro-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:0 60px;
+}
+
+
+.product-section h1, .product-section p{
+    text-align: center;
+}
+
+.product-section .product-cart{
+    width: 280px;
+    border: 1px solid #ebebeb;
+    padding: 13px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    transition: box-shadow 0.2s;
+}
+
+.product-section .product-cart:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+.product-section .product-cart img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.product-section .product-cart span{
+    color: #969696;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.product-section .product-cart h4{
+    font-size: 18px;
+    color: rgb(41, 41, 41);
+}
+
+
+.product-section .product-cart .stars{
+    color: #e6ae2c;
+    padding: 6px 0;
+}
+
+
+.product-section .product-cart .price{
+    color: #088178;
+    padding: 3px 0;
+}
+
+
+.product-section .product-cart .buy-icon{
+    color: #088178;
+    background-color: #c7e9e75e;
+    padding: 15px;
+    border-radius: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#off-banner{
+    background-image: url(images/banner/b2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40h;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#off-banner h4{
+    color: #eaebf0;
+}
+
+#off-banner h2{
+    color: #eaebf0;
+    padding: 50px 0;
+}
+
+#banners{
+    margin: 0 60px;
+}
+
+#banners h2, h4, span{
+    color: rgb(248,248,248);
+}
+
+#banners .big-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#banners .big-banners-1{
+    background-image: url(images/banner/b17.jpg);
+}
+
+#banners .big-banners-2{
+    background-image: url(images/banner/b10.jpg);
+}
+
+#banners .small-banners-1{
+    background-image: url(images/banner/b7.jpg);
+}
+
+#banners .small-banners-2{
+    background-image: url(images/banner/b4.jpg);
+}
+
+#banners .small-banners-3{
+    background-image: url(images/banner/b18.jpg);
+}
+
+#banners .small-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banners .small-banners h2{
+    font-size: 20px;
+}
+
+#banners .small-banners div{
+    min-width: 350px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+}
+
+#banners .big-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#banners .big-banners div{
+    min-width: 600px;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+}
+
+#banners .big-banners button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(248,248,248);
+    border: 2px solid rgb(248,248,248);
+    cursor: pointer;
+}
+
+#banners .big-banners div:hover button{
+    background-color: #088178;
+    border: 2px solid 088178;
+}
+
+
+#newsletter{
+    background-image: url(images/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 180px;
+    background-color: #041e42;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+#newsletter .newsletter-text h3{
+    color: white;
+    font-size: 30px;
+    padding: 0 0 15px 0;
+}
+
+#newsletter .newsletter-text h5{
+    color: rgb(151,151,151);
+    font-size: 17px;
+}
+
+#newsletter .newsletter-text h5 span{
+    color: rgb(216, 182, 29);
+}
+
+#newsletter .form input{
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    background-color: #d1d0d0;
+    border-radius: 6px 0 0 6px;
+
+    border: none;
+    outline: none;
+    margin-right: -3px;
+    margin-top: 3px;
+}
+
+#newsletter .form button{
+    margin-left: 0;
+    padding: 16px;
+    border: none;
+    width: 120px;
+    background-color: #088178;
+    color: white;
+    font-size: 17px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
