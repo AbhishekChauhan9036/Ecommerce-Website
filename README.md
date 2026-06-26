@@ -101,7 +101,7 @@ This project is licensed under the **MIT License**.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Abhishek Chauhan**
 
 - GitHub: https://github.com/AbhishekChauhan9036
 - LinkedIn: https://www.linkedin.com/in/abhishek-chauhan-10b4991b8
