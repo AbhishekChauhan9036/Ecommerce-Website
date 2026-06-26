@@ -433,3 +433,32 @@ span {
     border-radius: 0 6px 6px 0;
     cursor: pointer;
 }
+
+#footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #ececec;
+    padding: 75px;
+}
+
+#footer p,
+#footer a {
+    color: rgb(109,109,109);
+    text-decoration: none;
+}
+
+#footer .about a{
+    display: block;
+    padding: 8px 0;
+}
+
+#footer .myaccount a{
+    display: block;
+    padding: 8px 0;
+}
+
+#footer .download img{
+    border: 2px solid #08817969;
+    border-radius: 8px;
+}
