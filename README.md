@@ -31,7 +31,7 @@ A modern and responsive **E-Commerce Website** built using **HTML** and **CSS**.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ecommerce-website.git
+git clone https://github.com/AbhishekChauhan9036/Ecommerce-Website.git
 ```
 
 ### 2. Open the Project
@@ -103,8 +103,8 @@ This project is licensed under the **MIT License**.
 
 **Your Name**
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
+- GitHub: https://github.com/AbhishekChauhan9036
+- LinkedIn: https://www.linkedin.com/in/abhishek-chauhan-10b4991b8
 
 ---
 
